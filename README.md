@@ -7,14 +7,14 @@
 Split-Pane component built with vue2.0, can be split vertically or horizontally.
 
 
-## [Try the demo](http://panjiachen.github.io/split-pane/demo/index.html)
+## [Try the demo](https://songlin51.github.io/vue-splitpane-folding/demo/index.html)
 
 ### How to use?
 ```bash
-npm install vue-splitpane
+npm install vue-splitpane-folding
 
 #import
-import splitPane from 'vue-splitpane'
+import splitPane from 'vue-splitpane-folding'
 
 # use as global component
 Vue.component('split-pane', splitPane);
@@ -35,7 +35,7 @@ Vue.component('split-pane', splitPane);
 
 ```html
   //nested
-   <split-pane v-on:resize="resize" :min-percent='20' :default-percent='30' split="vertical">
+   <split-pane v-on:resize="resize" :min-percent='20' :default-percent='30' split="vertical" :folding="true">
       <template slot="paneL">
         A
       </template>
