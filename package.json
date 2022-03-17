@@ -1,7 +1,7 @@
 {
   "name": "vue-splitpane-folding",
   "description": "增加折叠展开功能",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "repository": "https://github.com/songlin51/vue-splitpane-folding",
   "author": "songlin",
   "main": "dist/vue-split-pane.min.js",

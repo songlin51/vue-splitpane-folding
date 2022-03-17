@@ -32,30 +32,8 @@
             A
           </template>
   
-          <template slot="paneR">
-  
-            <split-pane split="horizontal">
-  
-              <template slot="paneL">
-               B
-              </template>
-  
-              <template slot="paneR">
-                <split-pane v-on:resize="resize" split="vertical" :default-percent='30'>
-  
-                  <template slot="paneL">
-                   C
-                  </template>
-  
-                  <template slot="paneR">
-                   D
-                  </template>
-  
-                </split-pane>
-              </template>
-  
-            </split-pane>
-  
+          <template slot="paneR" style="background-color:red;">
+            B
           </template>
         </split-pane>
   
