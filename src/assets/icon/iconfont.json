@@ -1,0 +1,23 @@
+{
+  "id": "3253617",
+  "name": "折叠展开",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "20402207",
+      "name": "展开",
+      "font_class": "el-zhankai",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "20402210",
+      "name": "折叠",
+      "font_class": "el-zhedie",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    }
+  ]
+}
