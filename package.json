@@ -1,9 +1,9 @@
 {
   "name": "vue-splitpane-folding",
   "description": "增加折叠展开功能",
-  "version": "1.0.7",
-  "repository": "https://github.com/PanJiaChen/vue-split-pane",
-  "author": "Pan <panfree23@gmail.com>",
+  "version": "1.0.8",
+  "repository": "https://github.com/songlin51/vue-splitpane-folding",
+  "author": "songlin",
   "main": "dist/vue-split-pane.min.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --content-base='./demo/'",
@@ -11,7 +11,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "license": "MIT",
-  "homepage": "file:///Users/jiachenpan/www/Github/PanJiaChen.github.io/split-pane/demo/index.html",
+  "homepage": "",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-eslint": "7.1.1",

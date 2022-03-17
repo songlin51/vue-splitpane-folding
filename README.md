@@ -1,8 +1,10 @@
 # Vue Split Pane
 
-Split-Pane component built with vue2.0, can be split vertically or horizontally.
+1. 本项目为pan神 https://github.com/PanJiaChen/vue-split-pane 修改版,增加了展开折叠功能
+2. 新增folding参数 true展开 false折叠
+3. 好多bug哦,慎用,放到github是为了大家修改方便
 
-### 项目修改版,增加了折叠展开按钮   参数为:folding
+Split-Pane component built with vue2.0, can be split vertically or horizontally.
 
 
 ## [Try the demo](http://panjiachen.github.io/split-pane/demo/index.html)
