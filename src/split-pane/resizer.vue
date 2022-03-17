@@ -1,7 +1,7 @@
 <template>
 <div>
     <div :class="classes" :style="{ [resizeType]: percent+'%'}" @mousedown="onMouseDown"></div>
-    <div v-if=" split == 'vertical' && folding == true " class="reset" :style="{ [resizeType]: percent+'%'}" @click="reset">
+    <div v-if=" split == 'vertical' && folding == true " class="splitter-pane-reset" :style="{ [resizeType]: percent+'%'}" @click="reset">
       <span style="font-size:20px;" v-if=" contraction == 'shou' "><svg viewBox="64 64 896 896" focusable="false" data-icon="double-left" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M272.9 512l265.4-339.1c4.1-5.2.4-12.9-6.3-12.9h-77.3c-4.9 0-9.6 2.3-12.6 6.1L186.8 492.3a31.99 31.99 0 000 39.5l255.3 326.1c3 3.9 7.7 6.1 12.6 6.1H532c6.7 0 10.4-7.7 6.3-12.9L272.9 512zm304 0l265.4-339.1c4.1-5.2.4-12.9-6.3-12.9h-77.3c-4.9 0-9.6 2.3-12.6 6.1L490.8 492.3a31.99 31.99 0 000 39.5l255.3 326.1c3 3.9 7.7 6.1 12.6 6.1H836c6.7 0 10.4-7.7 6.3-12.9L576.9 512z"></path></svg></span>
       <span  style="font-size:20px;" v-if=" contraction == 'suo' "><svg viewBox="64 64 896 896" focusable="false" data-icon="double-right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M533.2 492.3L277.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H188c-6.7 0-10.4 7.7-6.3 12.9L447.1 512 181.7 851.1A7.98 7.98 0 00188 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5zm304 0L581.9 166.1c-3-3.9-7.7-6.1-12.6-6.1H492c-6.7 0-10.4 7.7-6.3 12.9L751.1 512 485.7 851.1A7.98 7.98 0 00492 864h77.3c4.9 0 9.6-2.3 12.6-6.1l255.3-326.1c9.1-11.7 9.1-27.9 0-39.5z"></path></svg></span>
     </div>
@@ -91,7 +91,7 @@
 	border-right: 5px solid rgba(255, 255, 255, 0);
 	cursor: col-resize;
 }
-.reset{
+.splitter-pane-reset{
   width:20px;
   height:13%;
   cursor:pointer;
