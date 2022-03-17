@@ -20,7 +20,7 @@
 
         <split-pane v-on:resize="resize" :min-percent='20' split="vertical" :folding="true">
           <template slot="paneL">
-            A
+            <div style="background-color:antiquewhite;height:100%;width:100%;"></div>
           </template>
   
           <template slot="paneR">
@@ -28,18 +28,18 @@
             <split-pane split="horizontal">
   
               <template slot="paneL">
-               B
+               <div style="background-color:aqua;height:100%;width:100%;"></div>
               </template>
   
               <template slot="paneR">
                 <split-pane v-on:resize="resize" split="vertical" :default-percent='30' :folding="true">
   
                   <template slot="paneL">
-                   C
+                   <div style="background-color:azure;height:100%;width:100%;" ></div>
                   </template>
   
                   <template slot="paneR">
-                   D
+                   <div style="background-color:rgb(100, 189, 122);height:100%;width:100%;"></div>
                   </template>
   
                 </split-pane>

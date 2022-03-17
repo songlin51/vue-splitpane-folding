@@ -4,6 +4,8 @@
 2. 新增folding参数 true展开 false折叠
 3. 好多bug哦,慎用,放到github是为了大家修改方便
 4. 暂时只设计了垂直分割线的展开折叠功能、如需增加水平展开折叠可以自己看代码加图标,很简单.
+5. 折叠的逻辑是把split设置为0,即全部收起.
+6. 功能的话直接看demo就可以了
 
 Split-Pane component built with vue2.0, can be split vertically or horizontally.
 

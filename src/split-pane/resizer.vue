@@ -93,7 +93,6 @@
 }
 .splitter-pane-reset{
   width:20px;
-  height:13%;
   cursor:pointer;
   position: absolute;
   /* background: rgb(139, 122, 123); */
