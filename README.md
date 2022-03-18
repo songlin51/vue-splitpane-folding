@@ -1,7 +1,7 @@
 # Vue Split Pane
 
 1. 本项目为pan神 https://github.com/PanJiaChen/vue-split-pane 修改版,增加了展开折叠小功能
-2. 新增folding参数 true展开 false折叠
+2. 新增folding参数 true开启折叠功能 false关闭 参数不加默认关闭
 3. 好多bug哦,慎用,放到github是为了大家修改方便
 4. 暂时只设计了垂直分割线的展开折叠功能、如需增加水平展开折叠可以自己看代码加图标,很简单.
 5. 折叠的逻辑是把split设置为0,即全部收起.
