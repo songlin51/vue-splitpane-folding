@@ -5,7 +5,7 @@
       <slot name="paneL"></slot>
     </pane>
 
-    <resizer :className="className" :resize-type="resizeType" :percent="percent" :default-percent="defaultPercent" :folding="folding" @changePercent="updatePercent" :split="split" @changeDown="onMouseDown" @click.native="onClick"></resizer>
+    <resizer :className="className" :resize-type="resizeType" :percent="percent" :default-percent="defaultPercent" :folding="folding" :folding-type="foldingType" @changePercent="updatePercent" :split="split" @changeDown="onMouseDown" @click.native="onClick"></resizer>
 
     <pane class="splitter-pane splitter-paneR" :split="split" :style="{ [type]: 100-percent+'%'}">
       <slot name="paneR"></slot>
@@ -32,7 +32,11 @@
       },
       folding:{
         type:Boolean,
-        default:false
+        default:false,
+      },
+      foldingType:{
+        type:String,
+        default:'long'
       },
       split: {
         validator(value) {

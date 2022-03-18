@@ -62,4 +62,5 @@ Vue.component('split-pane', splitPane);
 | min-percent         | paneL max-min-percent  |Number | 10 |
 | max-percent         | paneL max-percent  |Number | 10 |
 | folding                 | 折叠展开按钮             | Boolean   | false
+| foldingType          | 折叠类型(long 长显示,hidden 默认隐藏,移动上显示)                   | String   | long or hidden
 
