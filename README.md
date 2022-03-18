@@ -26,7 +26,7 @@ Vue.component('split-pane', splitPane);
 ### Example
 
 ```html
-   <split-pane v-on:resize="resize" :min-percent='20' :default-percent='30' split="vertical">
+   <split-pane v-on:resize="resize" :min-percent='20' :default-percent='30' split="vertical" :folding="true">
       <template slot="paneL">
         A
       </template>
